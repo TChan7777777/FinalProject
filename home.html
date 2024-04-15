@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="home.html"><img src="websiteImg/LoRIcon.png" alt="LoR Icon" width="50" height="50"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutLoR.html">About LoR</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About the Player
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="meetThePlayer.html">Meet The Player</a>
+                            <a class="dropdown-item" href="deckLists.html">Deck Lists</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            History
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="historyLoR.html">LoR History</a>
+                            <a class="dropdown-item" href="recentNews.html">LoR now</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Education
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                            <a class="dropdown-item" href="#">Link 4</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+    <div class="col-sm-12 text-center">
+        <h2>Welcome to my LoR Experience</h2>
+        <h3>The perspective of a player who fell in love with a game for 3 years</h3>
+    </div>
+
+<div class="container">
+    <div class="row">
+    <div class="col-md-6">
+        <h4 class="text-center">My Website</h4>
+        <p class="card-text">
+            This website is dedicated to recording and showcasing all the wonderful aspects,
+            moments, competitive history, and personal accomplishments that I have experienced and
+            played through while being a dedicated member of this game's community. This website also aims
+            to ultimately explain what has happened in most recent times that has lead to LoR's stagnation
+            and the hiatus of the game's competitive environment.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/TNhKAJwlj04"></iframe>
+    </div>
+    </div>
+</div>
+<div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row-cols-md-4">
+            <span class="text-muted">&copy; Tobey Chan, 2024 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
+<!-- DEVELOPER: Tobey Chan, IS117-102, Spring 2024 ->
