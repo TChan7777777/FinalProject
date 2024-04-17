@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
-</head>
 
+</head>
 <body>
 <div class="container-fluid">
     <div class="row">
@@ -32,7 +33,7 @@
                         <a class="nav-link" href="aboutLoR.html">About LoR</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#"
+                        <a class="nav-link dropdown-toggle" href="#"
                            data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About the Player
                         </a>
@@ -42,7 +43,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#"
+                        <a class="nav-link dropdown-toggle" href="#"
                            data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             History
                         </a>
@@ -57,43 +58,33 @@
 
 
                     <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Education
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Link 1</a>
-                            <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item" href="#">Link 3</a>
-                            <a class="dropdown-item" href="#">Link 4</a>
-                        </div>
-                    </li>
+
                 </ul>
             </div>
         </nav>
     </div>
 </div>
-<div class="col-sm-12 text-center">
-    <h2>Where LoR started</h2>
-</div>
 <div class="container">
-    <p></p>
-    <h5 class="card-title">When Covid Locked us away</h5>
-    <p class="card-text">
-        During the covid lockdown period of 2020-2021 there were many students like myself who felt the suffocating
-        sense of confinement that came from spending every day within our homes, unable to interact with others and
-        the world in person. Many of us turned to sources of entertainment that could stifle away that looming sense
-        of dread and apprehension. For me this source of entertainment would come in the form of Riot Game's new foothold
-        in the online card game genre. Legends of Runeterra released on April 29th, 2020. Although it did not pick up a lot
-        of traction in the beginning the game would rise to become one of the market's best online card games that could
-        compete with others that released during this time period. Yugioh Master Duel and Magic the Gathering Arena to name
-        a few.
-    </p>
-    <p class="card-text">
-        Before I knew it the first 3 months of the game would fly by and blend the monotone days of lockdown together. We would
-        eventually reach Runeterra's first card set expansion since the initial release.
-    </p>
+    <div class="row">
+        <div class="col-md-6" id="LoRText1">
+            <h5 class="card-title">LoR's history</h5>
+            <p class="card-text">
+                The history of this game can essentially be summed up as one long stream
+                of powerful card releases and sets that turned LoR's base simplistic game play loop
+                into very pushed archetypes of resource heavy gameplans, faster and more consistent
+                aggro strategies, and bigger and stronger midrange.
+            </p>
+            <p>
+                The most horrid and degenerate deck to this day was Azir Irelia. A deck that defied all known logic
+                and came into the game at full power, immediately becoming a tier 0 deck that had the consistency and power level
+                to often win on turn 5-7 decisively.
+            </p>
+        </div>
+        <div class="col-md-6" id="LoRSplash2">
+            <img src="websiteImg/funAndInteractiveGameplay.png" alt="Fun and Interactive..." width="500">
+        </div>
+    </div>
+
 </div>
 <div>
     <footer class="footer page-footer font-small ">
@@ -104,5 +95,14 @@
         </div>
     </footer>
 </div>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
 </body>
 </html>
+<!-- DEVELOPER: Tobey Chan, IS117-102, Spring 2024 ->
