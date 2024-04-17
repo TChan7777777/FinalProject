@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Deck Lists</title>
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
-</head>
 
+</head>
 <body>
 <div class="container-fluid">
     <div class="row">
@@ -32,7 +33,7 @@
                         <a class="nav-link" href="aboutLoR.html">About LoR</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#"
+                        <a class="nav-link dropdown-toggle" href="#"
                            data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About the Player
                         </a>
@@ -42,7 +43,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#"
+                        <a class="nav-link dropdown-toggle" href="#"
                            data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             History
                         </a>
@@ -57,23 +58,13 @@
 
 
                     <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Education
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Link 1</a>
-                            <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item" href="#">Link 3</a>
-                            <a class="dropdown-item" href="#">Link 4</a>
-                        </div>
-                    </li>
+
                 </ul>
             </div>
         </nav>
     </div>
 </div>
+
 <div class="container">
     <div class="row">
         <div class="col-md-4">
@@ -83,9 +74,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Pirate Aggro</h5>
                     <p class="card-text">The premiere aggro burn list that remains resilient even after 3 years since
-                    this deck's inception. The name of the game is to count down from 20 life. You play aggressive one drops,
-                    make wide swing open attacks, and consistently draw and tutor out your top end burn options to close out
-                    games.
+                        this deck's inception. The name of the game is to count down from 20 life. You play aggressive one drops,
+                        make wide swing open attacks, and consistently draw and tutor out your top end burn options to close out
+                        games.
                     </p>
                     <a href="https://runeterra.ar/lor/decks/code/CIDACAQDAMAQKBQBAEDAMHQBAYBSSBABAMBAYKBXAUBAMFQ2EYUDUAABAECAGAY" class="btn btn-primary">Check out the List</a>
                 </div>
@@ -97,10 +88,10 @@
             <div class="card-body">
                 <h5 class="card-title">Red Gwen</h5>
                 <p class="card-text">This was the game's boogieman during the last stretch of 2022's LoR world championship
-                and for good reason. The deck's match-up spread was practically unmatched. With the flexibility to pivot into any
-                deck speed to accommodate certain hand states or even specific match-ups. The region combination of Noxus/Shadow Isles
-                also held access to the game's best aggro/control region card pools respectively. Many high level players who committed
-                to this deck created many versions that held a lot of room for flexible tech cards to catch the meta off guard.
+                    and for good reason. The deck's match-up spread was practically unmatched. With the flexibility to pivot into any
+                    deck speed to accommodate certain hand states or even specific match-ups. The region combination of Noxus/Shadow Isles
+                    also held access to the game's best aggro/control region card pools respectively. Many high level players who committed
+                    to this deck created many versions that held a lot of room for flexible tech cards to catch the meta off guard.
                 </p>
                 <a href="https://runeterra.ar/lor/decks/code/CECQCAQDBEAQKAYPAIAQGKRXAIAQKKBRAMDAKDAQDQCACAIDFYAQCBIDAECAGFQDAYCQ2DRAAEAQMBJF" class="btn btn-primary">Check out the List</a>
             </div>
@@ -111,17 +102,34 @@
             <div class="card-body">
                 <h5 class="card-title">AzIrelia</h5>
                 <p class="card-text">AzIrelia. Oh AzIrelia... I know I said that Red Gwen was the 2022 boogie man but this
-                deck is the first deck that most LoR players will immediately exclaim when asked which deck is never allowed
-                to return. This deck, on release, at full power, was unmistakably the strongest deck in LoR and was allowed to
-                keep its tier 1 status, for over 6 months. With 10 individual nerfs during those 6 months. It took a whole new
-                set to push the deck out of the meta, and even with its power-level drastically cut, it remains as a strong all in
-                combo deck that can still perform.
+                    deck is the first deck that most LoR players will immediately exclaim when asked which deck is never allowed
+                    to return. This deck, on release, at full power, was unmistakably the strongest deck in LoR and was allowed to
+                    keep its tier 1 status, for over 6 months. With 10 individual nerfs during those 6 months. It took a whole new
+                    set to push the deck out of the meta, and even with its power-level drastically cut, it remains as a strong all in
+                    combo deck that can still perform.
                 </p>
                 <a href="https://runeterra.ar/lor/decks/code/CMCACBQHEIBAIAQEBEBQCAQGBQVAGBAHAMNDGAQCAQDV26IDAQBAKCALAIAQIAQBAIBQEBIU" class="btn btn-primary">Check out the List</a>
             </div>
         </div>
     </div>
 </div>
+<div>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row-cols-md-4">
+                <span class="text-muted">&copy; Tobey Chan, 2024 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
 
 </body>
 </html>
+<!-- DEVELOPER: Tobey Chan, IS117-102, Spring 2024 ->

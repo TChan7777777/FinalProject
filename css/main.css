@@ -1,3 +1,24 @@
+.container #LoRSplash1{
+    float: right;
+}
+
+.container #LoRSplash2{
+    float: right;
+    max-width: 30%;
+}
+.container #LoRText1{
+    text-align: left;
+
+}
+body.indexBgColor{
+    background-color: #c1d6cc;
+}
+body{
+    background-color: #ffca2c;
+}
+
+
+
 .footer {
     position: fixed;
     left: 0;
@@ -9,3 +30,5 @@
     padding: 10px;
     font-size: 0.5rem;
 }
+
+/*DEVELOPER: Tobey Chan, IS117-102, Spring, 2024 */
